@@ -8,6 +8,141 @@
 </head>
 <body>
   <h1>Zencoding 실습</h1>
-  <h2>실습 시작</h2>
+  
+  div*5
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+
+  div#id
+  <div id="id"></div>
+
+  div.class
+  <div class="class"></div>
+
+  div{문자열}
+  <div>문자열</div>
+  
+  input[속성]
+  <input type="text" 속성=""> 
+
+  <h1></h1>
+  <div></div>
+  <p></p>
+  div>p
+  <div>
+    <p></p>
+  </div>
+  div>p*3
+  <div>
+    <p></p>
+    <p></p>
+    <p></p>
+  </div>
+
+  ul>li*3
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+  div#wrap>ul>li*3
+  <div id="wrap">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  div.container>ul>li*3
+  <div class="container">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  ul>li.slide$*5
+  <ul>
+    <li class="slide1"></li>
+    <li class="slide2"></li>
+    <li class="slide3"></li>
+    <li class="slide4"></li>
+    <li class="slide5"></li>
+  </ul>
+
+  ul>li.slide$$*5
+  <ul>
+    <li class="slide01"></li>
+    <li class="slide02"></li>
+    <li class="slide03"></li>
+    <li class="slide04"></li>
+    <li class="slide05"></li>
+  </ul>
+  
+  div+ul>li*3
+  <div></div>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+  div>ul>li*3^ul>li*3
+  <div>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  div#wrap>ul>li*3^ul>li*3
+  <div id="wrap">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  div.slide-container>div.slide-view>ul.slide-wrap>li.slide.slide$*3
+  <div class="slide-container">
+    <div class="slide-view">
+      <ul class="slide-wrap">
+        <li class="slide slide1"></li>
+        <li class="slide slide2"></li>
+        <li class="slide slide3"></li>
+      </ul>
+    </div>
+  </div>
+
+  div>lorem
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eaque! Ullam voluptates itaque
+     voluptatibus aut, maxime nesciunt enim soluta nisi. Perspiciatis, 
+    porro rem cum eveniet numquam hic tenetur culpa delectus?</div>
+
+    ul>li*3>lorem
+    <ul>
+      <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium minus, maiores laudantium nostrum, beatae aliquid veritatis dicta tempore vero, aut quas voluptates molestiae excepturi eius illo autem eum quam nihil?</li>
+      <li>Autem nesciunt provident cumque odit doloribus laboriosam. Adipisci est repellat quas corporis similique suscipit facere tenetur animi non illo, numquam nemo minima veritatis error nulla placeat cupiditate rem consequatur commodi.</li>
+      <li>Perspiciatis perferendis, pariatur asperiores provident suscipit, possimus illum omnis, veritatis ratione nisi at sed vel vitae ea voluptatem. Blanditiis, deserunt obcaecati. Facilis ullam consequuntur veritatis, quaerat ducimus fugit voluptas laboriosam!</li>
+    </ul>
+    
 </body>
 </html>
