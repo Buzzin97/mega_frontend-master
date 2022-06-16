@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마켓컬리</title>
+
+    <!-- 내부 스타일 설정 (리셋 설정) -->
+    <style>
+        /* * 모든 all 요소에서 설정 */
+        * {margin:0;padding:0; vertical-align: middle; box-sizing: border-box;}
+        /* font:굵기 크기/줄간격 '글꼴종류1','글꼴종류1','글꼴종류1'; */
+        /* 어디에 설정
+        선택자(셀렉터 Selector) html rem단위 또는 body */
+        /* {}스타일 설정 스코프(Scope) 범위(영역) */
+        body {
+            font:normal 14px/1 '맑은고딕', 'arial'; 
+            color: #fff;
+            background: cadetblue;
+        }
+    </style>
+    <!-- 스크립트 설정 -->
+    <!-- 기타 아이콘 설정 --> 
+
+</head>
+<body>
+
+    <img src="./img/wedding-img1.jpg" alt="">
+    <img src="./img/wedding-img2.jpg" alt="">
+    <img src="./img/wedding-img3.jpg" alt="">
+    <img src="./img/wedding-img4.jpg" alt="">
+    <img src="./img/wedding-img5.jpg" alt="">
+    <div style="border:5px solid #fff;height: 200px;">
+        <h1>자식요소 헤딩</h1>
+    </div>    
+
+    div>h1+h2 
+    <div>
+        <h1>제목1</h1>
+        <h2>제목2</h2>
+        <h3>제목3</h3>
+        <h4>제목4</h4>
+        <h5>제목5</h5>
+        <h6>제목6</h6>
+    </div>
+
+    ol>li*5{순서있는 문서}
+    <ol>
+        <li>순서있는 문서</li>
+        <li>순서있는 문서</li>
+        <li>순서있는 문서</li>
+        <li>순서있는 문서</li>
+        <li>순서있는 문서</li>
+    </ol>
+    
+
+    ul>li*5{순서없는 목록$}
+    <ul>
+        <li>순서없는 목록1</li>
+        <li>순서없는 목록2</li>
+        <li>순서없는 목록3</li>
+        <li>
+            순서없는 목록4
+            <ul>
+                <li>순서없는 목록2</li>
+                <li>순서없는 목록2</li>
+                <li>
+                    순서없는 목록2
+                    <ul>
+                        <li>순서없는 목록3</li>
+                        <li>순서없는 목록3</li>
+                        <li>순서없는 목록3</li>
+                        <li>순서없는 목록3</li>
+                        <li>순서없는 목록3</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>순서없는 목록5</li>
+    </ul>
+
+    
+
+</body>
+</html>
