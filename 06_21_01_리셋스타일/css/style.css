@@ -1,0 +1,17 @@
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: darkturquoise;
+    font-family: 'Nanum Pen Script';
+    font-weight: 400;
+}
+
+ul li {
+    text-align: center;
+     line-height: 150%;   /* 자기자신 100% + 50% 줄높이 간격 */
+    
+}

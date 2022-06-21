@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+body {
+    font: normal 14px/1 'Nanum Gothic' , 'Roboto';
+}
+ul ,li {
+    list-style: none;
+}
